@@ -1,7 +1,7 @@
 body {
     background-image: url(pexels-francesco-ungaro-2835436\ 1.svg);
     background-repeat: no-repeat;
-    position: absolute;
+    position: relative;
     
 }
 
@@ -14,8 +14,11 @@ body {
 
 .box {
     color: white;
-    margin: auto;
-    padding: 0 20px;
+    margin-right: 460px;
+    padding: 0 10px;
+    font-size: 50px;
+    
+   
 }
 
 
@@ -30,7 +33,7 @@ body {
     justify-content: right;
     max-width: 1200px;
     margin: auto;
-    padding: 0 20px;
+    padding: 0 10px;
 
 }
 
@@ -46,6 +49,10 @@ body {
     box-shadow: 0px 0px 0px rgb(178, 165, 169);
     border: none;
 
+}
+.submit-btn:hover{
+    background-color: aquamarine;
+    cursor: pointer;
 }
 
 .nav1 {
@@ -213,34 +220,45 @@ body {
     width: 174px;
     height: 120px;
     margin-top: 250px;
+    margin-right: 340px;
     
 }
 
 .text2 {
     width: 174px;
     height: 120px;
-    margin-left: 300px;
+    margin-left: 400px;
+    margin-bottom: 200px;
+    display: block;
+   
+   
 
 }
 
 .text3 {
     width: 174px;
     height: 120px;
-    margin-left: 350px;
-    margin-top: 300px;
+    margin-left: 400px;
+    margin-bottom: 180px;
 
 }
 
 
 .container3 {
     font-size: 20px;
-    align-items: end;
+    align-items: center;
+    display: block;
+    gap: 90px;
     margin-left: 250px;
     display: grid;
     justify-content: space-between;
     max-width: 1200px;
     margin: auto;
-    padding: 0 20px;
+    padding: 40px 40px 40px 40px;
+   
+}
+.box7{
+    font-size: 50px;
 }
 
 .button-btn {
@@ -251,6 +269,10 @@ body {
     border-radius: 20px;
     font-size: 20px;
     border: none;
+}
+.button-btn:hover{
+    cursor: pointer;
+    background-color: rgb(51, 48, 45);
 }
 
 .container4 {
@@ -382,6 +404,10 @@ body {
 
 
 }
+.button-btn3:hover{
+    cursor: pointer;
+    background-color: rgb(9, 56, 75);
+}
 
 .block3 {
     display: flex;
@@ -429,7 +455,7 @@ body {
 
 .very-big-container1 {
 
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     margin-left: 350px;
     gap: 60px;
@@ -445,6 +471,7 @@ body {
     align-items: center;
     justify-content: center;
     display: flex;
+    box-shadow: 0px 0px 0px rgb(177, 125, 141);
 }
 
 .pline {
@@ -485,36 +512,36 @@ body {
     margin-block: 100px;
 }
 
-.lastbox {
-    font-size: 100px;
-    color: rgb(30, 40, 229);
-    display: flex;
-    justify-content: center;
+.lastbox{
     align-items: center;
-    border: 1px solid rgb(145, 152, 157);
-    box-shadow: 0px 0px 20px rgb(170, 104, 18);
-    border: none;
-    gap: 60px;
-    margin-block: 430px;
-    box-shadow: fuchsia;
-    display: grid;
+    justify-content: center;
+    display: block;
+    box-shadow: 0px 0px 0px rgb(144, 78, 97);
+    border: 1px solid rgb(177, 125, 141);
+    cursor: pointer;
+    margin-left: 70px;
+    background-color: aliceblue;
 
 }
+.lastbox:hover{
+    background-color: rgb(116, 74, 206);
+}
+
+
 
 .container7 {
     display: flex;
-    margin-left: 500px;
+    margin-left: 400px;
     gap: 60px;
 }
 
-@media only screen and (max-width:900px) {
+@media only screen and (max-width:600px) {
     body {
     margin: 10px 0;
     padding: 30px;
-    justify-content: space-between;
     flex-direction: column;
-    background-color: aliceblue;
-    position: relative;
+    background-color: rgb(119, 120, 121);
+    position: absolute;
 
     }
     .box {
@@ -527,21 +554,7 @@ body {
         padding: 0 20px;
     
     }
-    .lastbox {
-        font-size: 40px;
-        color: rgb(129, 130, 157);
-        justify-content: space-between;
-        align-items: center;
-        flex-direction: column;
-        border: 1px solid rgb(145, 152, 157);
-        box-shadow: 0px 0px 20px rgb(170, 104, 18);
-        border: none;
-        gap: 40px;
-        margin-block: 330px;
-        box-shadow: fuchsia;
-        display: grid;
     
-    }
     .text-upercase {
         text-transform: uppercase;
         flex-direction: column;
