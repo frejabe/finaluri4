@@ -602,18 +602,20 @@ footer {
     }
 
 }
+
 @keyframes slideAndFade {
     0% {
-      transform: translateX(-100px);
-      opacity: 0;
+        transform: translateX(-100px);
+        opacity: 0;
     }
+
     100% {
-      transform: translateX(0);
-      opacity: 1;
+        transform: translateX(0);
+        opacity: 1;
     }
-  }
-  
-  .slide-box {
+}
+
+.slide-box {
     width: 200px;
     height: 100px;
     background-color: coral;
@@ -622,7 +624,5 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-  
     animation: slideAndFade 1.5s ease forwards;
-  }
-  
+}
